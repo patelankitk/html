@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+    <! -- Span has an id of demo for us to access in javascript-->
+    <span id="demo"></span>
+   
+<script>
+    // Add an event listener which invokes the my first function when the webpage first load - the window object has a method called add evenlistener whic accepts 3 arguments.
+    Argument 1 - is the evet it is listening for, argument 2 is function it is invoking and argument 3 is a boolean which is generally set to false 
+    
+   window.addEventListener('load',myfirst,false);
+    
+    // A function is a set of instructions that can be repeatedly in a programme
+   
+function myfirst(){
+    
+    // window object and calling the alert method which accepts a string argument
+    
+     window.alert("Hello World using an event listener");
+    
+    // javascript is accessing a dom object (documents) and a common method to write to the HTML page where there is an element with an id = demo
+     
+document.getElementById("demo").innerHTML="Hello World";
+   }
+  
+    </script>
+  
+  
+</body>
+
+
+
+</html>
