@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head></head>
 
-<body>
-    
- <script>
     
     // creating a variable event1 which stores the input on     
     var event1 = document.getElementById("button1");
@@ -22,11 +16,5 @@
     }
    
    
-</script>
   
  
-</body>
-
-
-
-</html>
