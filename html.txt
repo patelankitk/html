@@ -1,8 +1,0 @@
-<script>
-   window.addEventListener('load', myfirst, false);
-   function myfirst()
-   {
-     window.alert("Hello World using an event listener");
-     document.getElementById("demo").innerHTML= "Hello World";
-   }
-  
