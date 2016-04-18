@@ -4,7 +4,7 @@
 
 <body>
     
-<script>
+ <script>
     
     // creating a variable event1 which stores the input on     
     var event1 = document.getElementById("button1");
@@ -21,7 +21,8 @@
         document.getElementById("demo").innerHTML =userinput1;
     }
    
-    </script>
+   
+</script>
   
  
 </body>
